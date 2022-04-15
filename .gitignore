@@ -3,3 +3,5 @@
 __pycache__/
 
 books.db
+
+.DS_Store

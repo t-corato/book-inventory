@@ -1,3 +1,0 @@
-([('front_end',
-   '/Users/tommasocorato/Desktop/App_course/book_app/book-inventory/dist/front_end',
-   'EXECUTABLE')],)

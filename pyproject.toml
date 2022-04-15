@@ -5,10 +5,9 @@ description = ""
 authors = ["Tommaso Corato <tommaso.corato@glovoapp.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.9, <3.11"
+python = "^3.9"
 tk = "^0.1.0"
 pysqlite3 = "^0.4.7"
-pyinstaller = "^4.10"
 
 [tool.poetry.dev-dependencies]
 

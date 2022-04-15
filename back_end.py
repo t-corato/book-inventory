@@ -12,7 +12,7 @@ def connect():
     conn.close()
 
 
-def insert(title: str, author: str, year: int, isbn: int):
+def insert(title, author, year, isbn):
     conn = sqlite3.connect("books.db")
     cur = conn.cursor()
     cur.execute("""
@@ -56,6 +56,7 @@ def delete(book_id):
     """, (book_id,))
     conn.commit()
     conn.close()
+
 
 def update(book_id, title, author, year, isbn):
     conn = sqlite3.connect("books.db")
